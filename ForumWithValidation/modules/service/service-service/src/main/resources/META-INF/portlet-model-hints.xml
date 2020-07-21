@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="org.company.service.model.Employee">
+		<field name="employeeId" type="long" />
+		<field name="name" type="String" />
+		<field name="surname" type="String" />
+		<field name="age" type="long" />
+	</model>
+	<model name="org.company.service.model.Employer">
+		<field name="employerId" type="long" />
+		<field name="name" type="String" />
+		<field name="surname" type="String" />
+		<field name="age" type="long" />
+	</model>
+	<model name="org.company.service.model.StudentInfo">
+		<field name="studentId" type="long" />
+		<field name="firstname" type="String" />
+		<field name="lastname" type="String" />
+		<field name="gender" type="String" />
+		<field name="dateofbirth" type="String" />
+		<field name="course" type="String" />
+		<field name="intake" type="String" />
+		<field name="address" type="String" />
+		<field name="city" type="String" />
+		<field name="postcode" type="String" />
+		<field name="country" type="String" />
+		<field name="email" type="String" />
+		<field name="mobile" type="String" />
+	</model>
+</model-hints>
